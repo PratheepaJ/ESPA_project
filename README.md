@@ -1,7 +1,7 @@
 # Overview
 ESPA is an empirical saddlepoint approximation method for smoothing Kaplan-Meier estimator with the right-censored data.
 
-ESPA provides method to compute the support for the survival time, compute the probability density for the survival time, and compute the distribution for the survival time, compute the median for the survival time, compute the probability of survival at time zero, and plot the survival function.
+ESPA provides methods to compute the support for the survival time, compute the probability density for the survival time, compute the distribution for the survival time, compute the median for the survival time, compute the probability for the survival at time zero, and plot the survival function.
 
 `ESAP_supp()` computes the support of the survival time.
 
