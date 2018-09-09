@@ -1,0 +1,11 @@
+Bernoulli_Journal/
+CJS/
+Data-Simulations-CDF/
+docs/
+*.R
+*.pdf
+JASA/
+JRSS_SeriesB/
+*.zip
+References/
+Simulation/
