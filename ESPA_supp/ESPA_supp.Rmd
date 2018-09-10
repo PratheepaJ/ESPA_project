@@ -852,11 +852,10 @@ toBibtex(x)
     -   AML, no LOGSPLINE fit...
     -   First 11 obs only (fall into 'mainitained' group)
 
-```{r fig.width=15,fig.height=15}
-pdf(file="./Plots/RealDatasets.pdf",pointsize=9,width=6,height=5)
-par(mfrow=c(2,2))
+```{r }
+# pdf(file="./Plots/RealDatasets.pdf",pointsize=9,width=6,height=5)
+# par(mfrow=c(2,2))
 my.lwd=2
-
 d1=aml[1:11,]
 time1=d1[,1]
 status1=d1[,2]
@@ -959,6 +958,6 @@ points(t.grid,spline.sur,lwd=my.lwd,type='l',col='purple',lty=4)
 legend('bottomleft',legend=c('Kaplan-Meier','ESPA','SPLINE'),lwd=my.lwd,
        col=c('black','blue','purple'), lty=c(1,2,4))
 
-dev.off()
+#dev.off()
 ```
 
