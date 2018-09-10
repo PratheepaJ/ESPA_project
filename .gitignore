@@ -2,7 +2,6 @@ Bernoulli_Journal/
 CJS/
 Data-Simulations-CDF/
 docs/
-*.R
 *.pdf
 *.html
 JASA/
