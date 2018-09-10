@@ -1,25 +1,7 @@
 # Overview
-ESPA is an empirical saddlepoint approximation method for smoothing Kaplan-Meier estimator with the right-censored data.
+ESPA project provides the workflow to reproduce the results in the manuscript "An Empirical Saddlepoint Approximation Based Method for Smoothing Survival Functions Under Right Censoring".
 
-ESPA provides methods to compute the support for the survival time, compute the probability density for the survival time, compute the distribution for the survival time, compute the median for the survival time, compute the probability for the survival at time zero, and plot the survival function.
+If you fork this repo, you need to create a folder "Plots" in the directory where you have "ESPA_supp.Rmd"
 
-`ESAP_supp()` computes the support of the survival time.
-
-`ESAP_pdf()` computes the density at a given failure time.
-
-`ESAP_survival()`computes the survival probabiltiy at a given failure time.
-
-`ESAP_median()` computes the median of the survival time
-
-`ESAP_t0()` computes the probability of survival at time zero.
-
-`ESAP_plotSurvival()` plots the survival function over the support computed by `ESAP_Supp()`.
-
-# Installation
-```{r }
-# Install the the development version from GitHub:
-devtools::install_github("PratheepaJega/ESPA")
-```
-
-If you find a bug, please report it with a reproducible example on [GitHub](https://github.com/PratheepaJ/ESPA/issues). 
+If you find a bug, please report it with a reproducible example on [GitHub](https://github.com/PratheepaJ/ESPA_project/issues). 
 
