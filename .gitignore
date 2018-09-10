@@ -4,6 +4,7 @@ Data-Simulations-CDF/
 docs/
 *.R
 *.pdf
+*.html
 JASA/
 JRSS_SeriesB/
 *.zip
